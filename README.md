@@ -6,7 +6,7 @@ A google sheets script to notify you of almost expired (and already expired) ite
 ## Quick start
 
 * Make a copy of the [Example of Fridge Stock](https://docs.google.com/spreadsheets/d/1XEEyYlTXiiwtLlZDcA34AQBatjcPsxBLbn9Byp4eBHg/edit?usp=sharing)
-* Choose [Tools -> Script editor] from the sheet's mene
+* Choose [Tools -> Script editor] from the sheet's menu
   * The script should be copied from the example with two functions, namely `buildHtmlTable` and `emailExpiredStock`
 * Work through the `//TODO:` comments at the top of the `Code.gs` file (recipients, sheetId)
 * From the toolbar above the script, select `emailExpiredStock` in the dropdown and then click Run
@@ -18,8 +18,8 @@ A google sheets script to notify you of almost expired (and already expired) ite
   * In the script editor menu click [Edit -> Current project's triggers]
   * Click to create/add a new trigger
   * Select `emailExpiredStock` as the function, "Head" as the deployment
-  * Decide on your preference to fire, I prefer [Time-driven -> Day timer -> 7am to 8am] trigger
-  * Choose your preference in "Failure notification settings", I prefer "Notify me immediately"
+  * Decide on your triggering preference, I prefer [Time-driven -> Day timer -> 7am to 8am] trigger
+  * Decide on your preference for "Failure notification settings", I prefer "Notify me immediately"
 
 
 ## Source code
